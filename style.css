@@ -56,8 +56,6 @@ body,html{
 
 
 /* <!-- Donated today section start --> */
-
-
 .donate_section{
     height: 100vh;
     width: 100%;
@@ -100,8 +98,63 @@ p{
     height: 50px;
     width: 76%;
     font-size: 20px;
-    /* border: none; */
     border-style: none;
     border-bottom: 2px solid black;
+}
+/* <!-- Donated today section start --> */
+
+.donate_plan_continaer{
+    height: 100vh;
+    width: 100%;
+}
+
+.donate_plan_continaer .plan_heading_continer{
+    width: 70%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.plan_data_continers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continer{
+    height: 390px;
+    width: 370px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.continer img{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.continer h4{
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+.continer p{
+
+    padding: 20px;
+
+}
+
+.plan_data_continers .food_for_family{
+    background-color: #EDF5F6;
+}
+
+
+.plan_data_continers .sehlter_for_family{
+    background-color: #FFEEEE;
+}
+
+
+.plan_data_continers .edicqtion_for_family{
+    background-color: #FFF4D6;
 
 }
