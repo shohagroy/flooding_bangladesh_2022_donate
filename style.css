@@ -73,12 +73,12 @@ body,html{
 h2{
     font-size: 45px;
     font-weight: 700;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 p{
     font-size: 18px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .donated_amount_continer h4{
@@ -177,3 +177,47 @@ p{
 }
 
 /* <!-- Give now to support section end --> */
+
+/* flooding blog secticon continer start */
+
+.flooding_blog_continer{
+    height: auto;
+    width: 100%;
+}
+
+
+.flooding_blog_continer .blog_main_continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog_main_continer .blog_text{
+    height: 500px;
+    width: 40%;
+    margin: 15px; 
+}
+
+.blog_main_continer .blog_image{
+    height: 600px;
+    width: 40%;
+    margin: 15px;
+
+}
+
+.blog_main_continer .blog_image img{
+    height: 500px;
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.blog_text a{
+    text-decoration: none;
+}
+
+#blog_text_tow{
+    margin-left: 100px;
+}
+
+/* <!-- flooding blog section end --> */
