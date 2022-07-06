@@ -26,7 +26,7 @@ body,html{
     color: white;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.249),rgba(0, 0, 0, 0.703));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.144),rgba(0, 0, 0, 0.845));
 }
 
 
@@ -40,6 +40,7 @@ body,html{
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 50px;
+    color: white;
 
 }
 
@@ -81,6 +82,7 @@ h2{
 p{
     font-size: 18px;
     padding: 20px 0;
+    color: #5e5e5e;
 }
 
 .donated_amount_continer h4{
@@ -98,7 +100,6 @@ p{
     color: #FF5959;
 }
 
-
 .input_area input{
     margin: 50px;
     text-align: center;
@@ -106,7 +107,7 @@ p{
     width: 76%;
     font-size: 20px;
     border-style: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #B3B3B3;
 }
 
 
@@ -136,7 +137,6 @@ p{
     border-radius: 10px;
 }
 
-
 .continer img{
     margin-top: 20px;
     padding: 20px;
@@ -155,11 +155,9 @@ p{
     background-color: #EDF5F6;
 }
 
-
 .plan_data_continers .sehlter_for_family{
     background-color: #FFEEEE;
 }
-
 
 .plan_data_continers .edicqtion_for_family{
     background-color: #FFF4D6;
@@ -193,7 +191,6 @@ p{
     height: auto;
     width: 100%;
 }
-
 
 .flooding_blog_continer .blog_main_continer{
     display: flex;
@@ -229,10 +226,12 @@ p{
 
 #blog_text_tow{
     margin-left: 150px;
-    margin-top: -50px;
 }
 
 /* <!-- flooding blog section end --> */
+
+
+/* <!-- Get My Updates section start --> */
 
 .update_continer{
     height: 100vh;
@@ -240,15 +239,12 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .update_section{
     width: 60%;
     text-align: center;
 }
-
 
 .update_section .email_subcribe_section{
     background-color: #FFF4D6;
@@ -278,8 +274,24 @@ p{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     cursor: pointer;
-
-
-
-
 }
+
+/* <!-- Get My Updates section end --> */
+
+/* footer section start */
+
+footer{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+footer p{
+    color: white;
+}
+
+/* <!-- footet section end--> */
+
