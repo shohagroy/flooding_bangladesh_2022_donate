@@ -81,8 +81,9 @@ h2{
 
 p{
     font-size: 18px;
-    padding: 20px 0;
+    padding: 10px 0;
     color: #5e5e5e;
+    font-family: 'Poppins', sans-serif;
 }
 
 .donated_amount_continer h4{
@@ -131,14 +132,14 @@ p{
 }
 
 .continer{
-    height: 390px;
-    width: 370px;
+    height: 400px;
+    width: 380px;
     margin: 10px;
     border-radius: 10px;
 }
 
 .continer img{
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
 }
 
@@ -166,6 +167,7 @@ p{
 /* <!-- Donate plan section end --> */
 
 .give_support_continer{
+    background-color: #EDF5F6;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -190,6 +192,7 @@ p{
 .flooding_blog_continer{
     height: auto;
     width: 100%;
+    margin-top: 100px;
 }
 
 .flooding_blog_continer .blog_main_continer{
