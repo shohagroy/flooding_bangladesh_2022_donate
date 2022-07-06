@@ -47,7 +47,8 @@ body,html{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    background-color: orange;
+    /* background-color: orange; */
+    background-color: #FF5959;
     padding: 18px 30px;
     border-radius: 10px;
 }
@@ -68,6 +69,7 @@ body,html{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 h2{
@@ -83,12 +85,19 @@ p{
 
 .donated_amount_continer h4{
     padding: 35px 23px;
-    background-color: tomato;
+    background-color: #FAFAFA;
     margin: 10px;
     color: #707070;
     border-radius: 5px;
     font-size: 30px;
 }
+
+.donated_amount_continer .active{
+    background-color: #FFEEEE;
+    border: 3px solid #FF5959;
+    color: #FF5959;
+}
+
 
 .input_area input{
     margin: 50px;
@@ -203,11 +212,13 @@ p{
     height: 600px;
     width: 40%;
     margin: 15px;
+}
 
+.blog_image figure{
+    margin-left: 50px;
 }
 
 .blog_main_continer .blog_image img{
-    height: 500px;
     border-start-start-radius: 20px;
     border-top-right-radius: 20px ;
 }
@@ -217,7 +228,8 @@ p{
 }
 
 #blog_text_tow{
-    margin-left: 100px;
+    margin-left: 150px;
+    margin-top: -50px;
 }
 
 /* <!-- flooding blog section end --> */
