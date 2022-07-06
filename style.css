@@ -63,8 +63,6 @@ body,html{
     justify-content: center;
     align-items: center;
     text-align: center;
-
-
 }
 .donated_amount_continer{
     display: flex;
@@ -101,6 +99,8 @@ p{
     border-style: none;
     border-bottom: 2px solid black;
 }
+
+
 /* <!-- Donated today section start --> */
 
 .donate_plan_continaer{
@@ -139,9 +139,7 @@ p{
 }
 
 .continer p{
-
     padding: 20px;
-
 }
 
 .plan_data_continers .food_for_family{
@@ -156,5 +154,26 @@ p{
 
 .plan_data_continers .edicqtion_for_family{
     background-color: #FFF4D6;
-
 }
+
+/* <!-- Donate plan section end --> */
+
+.give_support_continer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support_text{
+    width: 80%;
+    text-align: center;
+}
+
+
+.support_text h2{
+    margin-bottom: 50px;
+}
+
+/* <!-- Give now to support section end --> */
